@@ -1,0 +1,41 @@
+.swap-gallery {
+  width: 100%;
+  height: 230px;
+  overflow: hidden;
+  margin: 20px auto; }
+  .swap-gallery ul {
+    width: 225px;
+    margin: 0 auto;
+    padding: 0px;
+    height: 160px;
+    position: relative; }
+    .swap-gallery ul :after {
+      content: "";
+      clear: both; }
+    .swap-gallery ul li {
+      list-style-type: none;
+      display: block;
+      position: absolute; }
+    .swap-gallery ul .gallerylist {
+      width: 225px;
+      height: 150px;
+      background-size: cover; }
+
+.action-buttons {
+  width: 100%;
+  margin: 0 auto;
+  text-align: center; }
+  .action-buttons .btn {
+    background: #77828a;
+    border-radius: 5px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 12px;
+    margin: 5px 20px;
+    padding: 6px 12px;
+    width: 60px;
+    text-decoration: none;
+    border-style: none; }
+    .action-buttons .btn :hover {
+      background: #97a2aa;
+      text-decoration: none; }

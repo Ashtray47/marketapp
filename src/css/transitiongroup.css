@@ -1,0 +1,83 @@
+.animated-list {
+  transition: .4s ease-in; }
+
+.animated-list-active {
+  opacity: 1;
+  transform: translateY(0px); }
+
+/*  new comment animation */
+.newcomment-enter {
+  opacity: 0.01;
+  transform: translateY(-30px);
+  transition: .4s ease-in; }
+  .newcomment-enter.newcomment-enter-active {
+    opacity: 1;
+    transform: translateY(0px); }
+
+.newcomment-leave {
+  opacity: 1;
+  transition: .4s ease-in; }
+  .newcomment-leave.newcomment-leave-active {
+    opacity: 0.01; }
+
+.comment-appear {
+  opacity: 0.01;
+  transform: translateY(30px);
+  transition: .4s ease-in; }
+  .comment-appear.comment-appear-active {
+    opacity: 1;
+    transform: translateY(0px); }
+
+.comment-leave {
+  opacity: 1;
+  transition: .4s ease-in; }
+  .comment-leave.comment-leave-active {
+    opacity: 0.01; }
+
+.commentload-leave {
+  opacity: 1;
+  transition: .4s ease-in; }
+  .commentload-leave.commentload-leave-active {
+    opacity: 0.01; }
+
+.page-appear {
+  opacity: 0.01;
+  transform: translateX(100px); }
+  .page-appear.page-appear-active {
+    opacity: 1;
+    transform: translateX(0px);
+    transition: .4s ease-in; }
+
+.page-enter {
+  opacity: 0.01;
+  transform: translateX(100px); }
+  .page-enter.page-enter-active {
+    opacity: 1;
+    transform: translateX(0px);
+    transition: .4s ease-in; }
+
+.page-leave {
+  opacity: 1; }
+  .page-leave.page-leave-active {
+    opacity: 0.01;
+    transform: translateX(100px);
+    transition: .4s ease-in; }
+
+.citylistTransition-appear {
+  opacity: 0.01;
+  transition: .1s ease-in; }
+  .citylistTransition-appear.citylistTransition-appear-active {
+    opacity: 1;
+    transform: translateX(0px); }
+
+.citylistTransition-enter {
+  opacity: 0.01;
+  transition: .1s ease-in; }
+  .citylistTransition-enter.citylistTransition-enter-active {
+    opacity: 1; }
+
+.citylistTransition-leave {
+  opacity: 1;
+  transition: .1s ease-in; }
+  .citylistTransition-leave.citylistTransition-leave-active {
+    opacity: 0.01; }

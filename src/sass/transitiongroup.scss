@@ -1,0 +1,135 @@
+//transitiongroup
+
+@mixin transitionTime() {
+	transition: .4s ease-in;
+}
+
+@mixin cityTransitionTime() {
+	transition: .1s ease-in;
+}
+
+.animated-list {
+	@include transitionTime;
+	//opacity: 0.3;
+	// transform: translateY(-20px);
+}
+
+.animated-list-active {
+	opacity: 1;
+	transform: translateY(0px);
+}
+
+/*  new comment animation */
+.newcomment-enter {
+	opacity: 0.01;
+	transform: translateY(-30px);
+	@include transitionTime;
+
+	&.newcomment-enter-active {
+		opacity: 1;
+		transform: translateY(0px);
+	}
+}
+
+.newcomment-leave {
+	opacity: 1;
+	@include transitionTime;
+
+	&.newcomment-leave-active {
+		opacity: 0.01;
+
+	}
+}
+
+.comment-appear {
+	opacity: 0.01;
+	transform: translateY(30px);
+	@include transitionTime;
+
+	&.comment-appear-active {
+		opacity: 1;
+		transform:translateY(0px);
+	}
+}
+
+.comment-leave {
+	opacity: 1;
+	@include transitionTime;
+
+	&.comment-leave-active {
+		opacity: 0.01;
+	}
+}
+
+.commentload-leave {
+	opacity: 1;
+	@include transitionTime;
+
+	&.commentload-leave-active {
+		opacity: 0.01;
+	}
+}
+
+.page-appear {
+	opacity: 0.01;
+	transform: translateX(100px);
+	
+
+	&.page-appear-active {
+		opacity: 1;
+		transform: translateX(0px);
+		@include transitionTime;
+	}
+}
+
+.page-enter {
+	opacity: 0.01;
+	transform: translateX(100px);
+
+	&.page-enter-active {
+		opacity: 1;
+		transform: translateX(0px);
+		@include transitionTime;
+	}
+}
+
+.page-leave {
+	opacity: 1;
+	
+
+	&.page-leave-active {
+		opacity: 0.01;
+		transform: translateX(100px);
+		@include transitionTime;
+	}
+}
+
+.citylistTransition-appear {
+	opacity: 0.01;
+	@include cityTransitionTime;
+
+	&.citylistTransition-appear-active {
+		opacity: 1;
+		transform: translateX(0px);
+
+	}
+}
+
+.citylistTransition-enter {
+	opacity: 0.01;
+	@include cityTransitionTime;
+
+	&.citylistTransition-enter-active {
+		opacity: 1;
+	}
+}
+
+.citylistTransition-leave {
+	opacity: 1;
+	@include cityTransitionTime;
+
+	&.citylistTransition-leave-active {
+		opacity: 0.01;
+		
+	}
+}

@@ -1,0 +1,237 @@
+@import url(https://fonts.googleapis.com/css?family=Indie+Flower);
+
+html, body {
+	height: 100%;
+	background-color: #777;
+	//background-image: url(../images/farmers.jpg);
+	background-repeat: repeat;
+	background: #0E9146; 
+	background: -moz-linear-gradient(top, #0E9146 0%, #68A515 100%);
+	background: -webkit-linear-gradient(top, #0E9146 0%,#68A515 100%);
+	background: linear-gradient(to bottom, #0E9146 0%,#68A515 100%); 
+}
+
+.section {
+	margin: 15px 0 15px 0;
+}
+
+.app {
+	height: 100%;
+}
+
+.container {
+	width: 100%;
+	height: 100%;
+	padding-right: 0;
+	padding-left: 0;
+}
+
+.notype {
+	list-style-type: none;
+}
+
+.center {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.btn-n {
+	color: #444;
+	:hover {
+		cursor: pointer;
+		color: #444 * 2;
+	}
+}
+
+ul {
+	margin-left: 0;
+	padding-left: 0;
+}
+
+.content {
+	max-width: 480px;
+	min-width: 280px;
+	border-radius: 3px;
+	width: 94%;
+	margin: 20px auto;
+	background-color: rgba(255,255,255,0.9);
+	padding: 10px 12px;
+}
+
+.contentheader {
+	text-align: center;
+}
+
+.header {
+	border-bottom: 1px solid #363;
+	background-color: #E8511C;
+	color: #fff;
+	padding-top: 5px;
+	margin-bottom: 20px;
+	position: relative;
+
+	.title {
+		margin-top: 0px;
+		text-align: center;
+		font-family: 'Indie Flower', 'cursive';
+	}
+
+	.back-link-btn {
+		font-size: 10px;
+		position:absolute;
+		left: 14px;
+		top: 7px;
+		display: block;
+		background-color: #C14303;
+		padding: 4px;
+		border: 1px solid;
+		border-color: #C14303 * 0.7;
+		border-top-left-radius: 4px;
+		border-bottom-left-radius: 4px;
+
+		a {
+			color: #ddd;
+			list-style-type: none;
+
+			:hover {
+				color: #bbb;
+				text-decoration: none;
+			}
+		}
+	}
+
+}
+
+.row {
+	margin: 0;
+}
+
+li.citylist {
+	list-style-type: none;
+	padding: 10px 5px;
+	border-top: 1px solid #aaa;
+
+	.count {
+		margin-top: 7px;
+	}
+
+	:hover {
+		color: #0076a3;
+		text-decoration: none;
+	}
+
+	a {
+		display:block;
+		color: #555;
+
+		:hover {
+			color: #0076a3;
+			text-decoration: none;
+		}
+	}
+}
+
+li.list {
+	list-style-type: none;
+	text-align: center;
+}
+
+.listimage {
+	width: 125px;
+	height: 125px;
+	background-size: cover;
+	background-image: url(../images/noimage.png);
+}
+
+.infoimage {
+	width: 200px;
+	height: 200px;
+	background-size: cover;
+	background-image: url(../images/noimage.png);
+}
+
+.selected-city-heading {
+	text-align: center;
+}
+
+.addform {
+	input, label {
+		display: inline-block;
+		margin: 8px 0;
+		padding: 2px;
+	}
+
+	label {
+		min-width: 80px;
+	}
+}
+
+.market-info {
+	margin: 5px 0 15px;
+}
+
+
+
+.comment-section {
+	border-top: 1px solid #555;
+	padding: 10px 5px;
+
+	ul {
+		margin-top: 10px;
+		padding-left: 8px;
+	}
+
+	ul:nth-child(even) {
+		background-color: #cbc;
+	}
+
+	.comment-list {
+		list-style-type: none;
+		padding-top: 5px;
+		border-bottom: 1px solid #99a;
+		transition: opacity .4s ease-in, transform .4s;
+	}
+}
+
+.comment-input {
+	margin: 5px 0;
+	width: 100%;
+	max-width: 320px;
+}
+
+.section-margin {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.section-padding {
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.footer-add {
+	border-top: 1px solid #999;
+	margin-top: 25px;
+}
+
+
+
+.search-form {
+	input {
+		width: 80%;
+		margin: 0 9% 6px;
+	}
+
+	a {
+		font-size: 18px;
+		display:block;
+		width: 50px;
+		margin: 0 auto;
+	}
+}
+
+
+
+
+
+

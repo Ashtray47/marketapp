@@ -1,0 +1,33 @@
+{
+  "name": "marketapp",
+  "version": "1.0.0",
+  "description": "market finder app created with react",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node start.js"
+  },
+  "author": "M Sau",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.14.2",
+    "browserify": "^12.0.1",
+    "express": "^4.13.3",
+    "flux": "^2.1.1",
+    "gulp": "^3.9.0",
+    "history": "^1.13.1",
+    "object-assign": "^4.0.1",
+    "react": "^0.14.3",
+    "react-addons-css-transition-group": "^0.14.3",
+    "react-dom": "^0.14.3",
+    "reactify": "^1.1.1",
+    "vinyl-source-stream": "^1.1.0"
+  },
+  "devDependencies": {
+    "gulp-sass": "^2.1.0",
+    "gulp-concat": "^2.6.0",
+    "gulp-connect": "^2.2.0",
+    "gulp-eslint": "^1.1.1",
+    "gulp-open": "^1.0.0"
+  }
+}
