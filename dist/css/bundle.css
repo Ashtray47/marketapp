@@ -109,10 +109,10 @@ ul {
     text-align: center;
     font-family: 'Indie Flower', 'cursive'; }
   .header .back-link-btn {
-    font-size: 8px;
+    font-size: 10px;
     position: absolute;
     left: 14px;
-    top: 5px;
+    top: 7px;
     display: block;
     background-color: #C14303;
     padding: 4px;
@@ -216,6 +216,13 @@ li.list {
   display: block;
   width: 50px;
   margin: 0 auto; }
+
+.header-image {
+  width: 300px;
+  height: 87px;
+  margin: 0 auto;
+  background-size: cover;
+  background-image: url(../images/fruits.png); }
 
 .animated-list {
   transition: .4s ease-in; }

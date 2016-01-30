@@ -1,8 +1,6 @@
 'use strict';
 var React = require('react');
 var MarketAdd = require('./marketadd.js');
-var ReactRouter = require('react-router');
-var Link = ReactRouter.Link;
 var Header = require('./header');
 var ReactCSSTransitionGroup = require('react-addons-css-transition-group');
 

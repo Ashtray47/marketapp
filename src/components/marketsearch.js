@@ -50,7 +50,7 @@ var MarketSearch = React.createClass({
 				 transitionEnterTimeout={100} transitionLeaveTimeout={100}>
 				<div className="content">
 
-					<h2 className="contentheader">Search Market</h2>
+					<figure className="header-image"></figure>
 
 					<div className="section-padding center">
 						<SearchForm value={this.state.value}
